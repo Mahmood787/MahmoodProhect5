@@ -1,0 +1,11 @@
+/* Jumbo */
+.jumbo{
+    margin-top: 10px;
+  }
+  .jumbo svg{
+    width: 500px;
+  }
+  .g1{
+    transform-origin: center;
+    transform-box: fill-box;
+  }

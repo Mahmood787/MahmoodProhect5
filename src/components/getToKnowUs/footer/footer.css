@@ -1,0 +1,113 @@
+/* ----------------------------------Footer -------------------------------------------*/
+.footer{
+    text-align: center;
+    align-content: center;
+    background-color: #002348;
+    padding-top: 50px;
+  }
+  .sub-footer{
+      padding-top: 107px;
+      padding-bottom: 63px;
+      text-align: center;
+      border-bottom: solid 2px rgba(255,255,255,.1);
+  }
+  .sub-footer svg{
+      width: 88px;
+      height: 55px;
+      display: inline-block;
+      margin-bottom: 47px;
+  }
+  .sub-footer h2{
+    color: white;
+    font-size: 3em;
+    margin:0 0 37px 0;
+  }
+  .sub-footer p{
+    color: white;
+    font-size: 1.3em;
+    line-height: 1.5;
+    letter-spacing: 0;
+    width: 640px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .sub-footer a{
+    color: white;
+    text-decoration: none;
+    line-height: 1;
+    letter-spacing: 0;
+    font-weight: 700;
+    padding-bottom: 12px;
+    position: relative;
+    margin-top:45px;
+    display: inline-block;
+    font-size:1em;
+  }
+  .sub-footer a:before{
+    content: " ";
+    position: absolute;
+    right: 0;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height:5px;
+    background: #fdb811;
+    transition: all .5s ease-in-out;
+  }
+  .sub-footer a:after{
+    content: " ";
+    position: absolute;
+    right: 0;
+    left:0;
+    bottom: 0;
+    width: 0;
+    height:5px;
+    background:#638db9;
+    transform-origin: center;
+    margin:auto;
+    transition: width .5s ease-in-out;
+  }
+  .sub-footer a:hover::after{
+    width:100%; 
+  }
+  /* Main-Footer */
+  .main-footer{
+    margin:50px;
+  }
+  .main-footer a:hover{
+    color:white;
+  }
+  .main-footer li{
+    display: inline;
+    padding: 15px;
+    line-height: 1;
+  }
+  .main-footer a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #bcccdd;
+  }
+  .main-footer span{
+    color:#e1eefc;
+    font-size: 1.3em;
+    margin: 20px;
+    padding-top: 20px;
+    display: inline-block;
+  }
+  .main-footer span a {
+    padding: 30px;
+  }
+  /* bottom Footer */
+  .bottom-footer{
+    color: rgba(255,255,255,.5);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .bottom-footer *:hover{
+    color: white;
+  }

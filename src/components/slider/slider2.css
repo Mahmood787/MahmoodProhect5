@@ -1,0 +1,50 @@
+.wrapper{
+    position: relative;
+    width: 320px;
+    margin: 150px auto;
+    perspective: 1000px;
+    background: lightseagreen;
+}
+.image-area{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: rotateY(-360deg) translateZ(-300px);
+    animation: animate 40s steps(10000, end) infinite ;   
+}
+.single-img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    height: 200px;
+}
+.single-img img{
+    width: 300px;
+    height: 200px;
+    border: 5px solid #fff;
+}
+.single-img.image-1{
+    transform: rotateY(60deg) translateZ(300px) 
+}
+.single-img.image-2{
+    transform: rotateY(120deg) translateZ(300px) 
+}
+.single-img.image-3{
+    transform: rotateY(180deg) translateZ(300px) 
+}
+.single-img.image-4{
+    transform: rotateY(240deg) translateZ(300px) 
+}
+.single-img.image-5{
+    transform: rotateY(300deg) translateZ(300px) 
+}
+@keyframes animate {
+    from{
+        trnasform: rotateY(-360deg)
+    }
+    to{
+        transform: rotateY(0deg)
+    }
+}

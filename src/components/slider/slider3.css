@@ -1,0 +1,121 @@
+/* html {
+	/*font-size: 100px;   1px = 0.01rem */
+ */
+
+.slide-container{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.index_body {
+	float: right;
+	position: relative;
+ 	margin-left: 0.2rem;
+  	margin-top: 0.2rem;
+	  height: 100vh;
+	  width: 100vw;
+	
+}
+.left_btn {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0.1rem;
+	margin: auto;
+	width: 42px;
+	height: 71px;
+	z-index: 10;
+	opacity: 0.5;
+	cursor: pointer;
+}
+.right_btn {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0.1rem;
+	margin: auto;
+	width: 42px;
+	height: 71px;
+	z-index: 10;
+	opacity: 0.5;
+	cursor: pointer;
+}
+.slidebox {
+	white-space: nowrap; 
+	font-size: 0;
+	float: right;	
+}
+.slide_item {
+	display: inline-block;
+	list-style: none;
+	position: relative;
+}
+.slide_item img{
+	height: 100vh;
+	width: 100vw;
+	z-index: 2;
+}
+.h1p{
+	position: absolute;
+	top: 30%;
+	left: 5%;
+	z-index: 4;
+}
+.h1p-left{
+	position: absolute;
+	top: 30%;
+	left: 60%;
+	z-index: 4;
+}
+.h1p-left p{
+	display:block ;
+	z-index: 4;
+	color: white;
+	font-size: 15px;
+	line-height: 2;
+	font-weight: bold;
+}
+.h1p-left h1{
+	color:white ;
+	font-size: 25px;
+	line-height: 1.5;
+}
+.h1p h1{
+	color:rgba(0, 0, 0, 0.561) ;
+	font-size: 25px;
+	line-height: 1.5;
+}
+.h1p p{
+	display:block ;
+	z-index: 4;
+	color: rgba(0, 0, 0, 0.561);
+	font-size: 15px;
+	line-height: 2;
+	font-weight: bold;
+}
+.h1p i{
+	position: absolute;
+	top: 90%;
+	left: 40%;
+}
+.slide_item button{
+	background: rgba(0, 0, 0, 0.761);
+	color: white;
+	height: 7vh;
+	width: 20vw;
+	margin-top: 5vh;
+	border-radius: 10px;
+	font-weight: bolder;
+}
+.slider-icon{
+	position: absolute;
+	top: 90%;
+	left: 40%;
+}
+.slider-icon i{
+	z-index: 99;
+	margin-left: 20px;
+}

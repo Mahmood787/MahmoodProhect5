@@ -1,0 +1,53 @@
+.section-s{
+    width: 100%;
+}
+.message{
+    width: 70%;
+    margin:auto;
+    text-align: center;
+    line-height: 1;
+    padding-top: 120px;
+}
+.h11{
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+.h11 span{
+    color: red;
+}
+.message p{
+    padding:30px 50px;
+    font-size: larger;
+    justify-content: center;
+    line-height: 1.7;
+}
+.performers{
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+.performers h1{
+    font-size: xx-large;
+}
+.pics{
+    margin: 50px;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pic {
+    width: 40vh;
+    height: 40vh;
+    align-items: center;
+}
+.pic h3{
+    color: red;
+    margin-top:10px;
+}
+.pic img{
+    width:30vh;
+    height: 30vh;
+    border-radius: 50%;
+    border:5px solid red;
+}
