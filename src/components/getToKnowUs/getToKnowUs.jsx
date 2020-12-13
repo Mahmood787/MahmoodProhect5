@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react'
 import CountUp from 'react-countup'
 import './getToKnowUs.css'
-import useWebAnimation from '@wellyshen/use-web-animations'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import VisibilitySensor from 'react-visibility-sensor';
-import { counter } from '@fortawesome/fontawesome-svg-core'
+
 // import CountUp from 'react-countup'; 
 
 const GetToKnowUs = () => {

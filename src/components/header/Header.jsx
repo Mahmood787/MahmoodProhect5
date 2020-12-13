@@ -1,7 +1,6 @@
-import React, { useState,useEffect, useRef } from 'react'
+import React, { useState,useEffect} from 'react'
 import Aos from 'aos'
 import './header.css'
-import useWebAnimation from '@wellyshen/use-web-animations'
 
 const Header = () => {
     useEffect(()=>{
@@ -14,7 +13,7 @@ const Header = () => {
             }else{ setScroll(false)}
         })
 
-const inputEl = useRef(null);
+
     return (
         <div className="header-bg">
             <div className={scroll ? "header scrolled" : "header"}>
@@ -25,8 +24,8 @@ const inputEl = useRef(null);
                     <ul className="nav">
                         <li><a href="//#endregion" className="hello1">Home</a></li>
                         <li><a href="//#endregion" className="hello2">About</a></li>
-                        <li><a href="#" className="hello3">Services</a></li>
-                        <li><a href="#" className="hello4">Products</a></li>
+                        <li><a href="//#endregion" className="hello3">Services</a></li>
+                        <li><a href="//#endregion" className="hello4">Products</a></li>
                         <li><a href="//#endregion" className="hello5">Constact</a></li>
                     </ul>
                     <div className="right">

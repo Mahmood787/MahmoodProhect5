@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 // import Slide from "react-swipeable-views";
-import Button from "@material-ui/core/Button";
-import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { red, blue, green } from "@material-ui/core/colors";
 import { AutoRotatingCarousel, Slide } from "material-auto-rotating-carousel";
 
@@ -28,7 +25,7 @@ const AutoRotatingCarouselModal = () => {
       >
         <Slide
           media={ 
-            <img src="http://www.icons101.com/icon_png/size_256/id_79394/youtube.png" />
+            <img  alt="" src="http://www.icons101.com/icon_png/size_256/id_79394/youtube.png" />
           }
           mediaBackgroundStyle={{ backgroundColor: red[400] }}
           style={{ backgroundColor: red[600] }}
@@ -37,7 +34,7 @@ const AutoRotatingCarouselModal = () => {
         />
         <Slide
           media={
-            <img src="http://www.icons101.com/icon_png/size_256/id_80975/GoogleInbox.png" />
+            <img  alt="" src="http://www.icons101.com/icon_png/size_256/id_80975/GoogleInbox.png" />
           }
           mediaBackgroundStyle={{ backgroundColor: blue[400] }}
           style={{ backgroundColor: blue[600] }}
@@ -46,7 +43,7 @@ const AutoRotatingCarouselModal = () => {
         />
         <Slide
           media={
-            <img src="http://www.icons101.com/icon_png/size_256/id_76704/Google_Settings.png" />
+            <img  alt="" src="http://www.icons101.com/icon_png/size_256/id_76704/Google_Settings.png" />
           }
           mediaBackgroundStyle={{ backgroundColor: green[400] }}
           style={{ backgroundColor: green[600] }}
