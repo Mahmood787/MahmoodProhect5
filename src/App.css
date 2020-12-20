@@ -20,3 +20,19 @@ body{
   z-index: -2;
   height: 100vh;
 }
+@media only screen and (max-width: 600px){
+  .left_btn,.right_btn,.slider-icon{
+    display: none;
+  }
+  .h1p h1:first-child{
+    display: none;
+  }
+  .h1p p{
+    display: none;
+  }
+  .message p{
+    padding: 30px 0px !important;
+    
+    text-align: center;
+  }
+}
